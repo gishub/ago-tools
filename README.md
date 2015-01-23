@@ -12,17 +12,14 @@ A Python package to assist with administering ArcGIS Online Organizations.
 
 ## Instructions
 
-1. Fork and then clone the repo. 
+1. Fork and then clone the repo.
 2. Run and try the samples.
 
 ## Installation
 
-1. Unzip into a folder such as C:/myscripts
-2. Change the directory name from C:/myscripts/ago-tools-master to C:/myscripts/agoTools (name must not have dashes).
-3. Then do one of the following: A) add that directory to your system path -OR- B) append the directory at runtime using the sys module in python:
-      
-        import sys
-        sys.path.append('c:/myscripts')
+To install the package, run `setup.py` from the command line.  This should copy it to your python's site-package folder as agoTools.
+
+`c:\ago-tools>python.exe setup.py install`
 
 ## Samples
 ### Admin Class
